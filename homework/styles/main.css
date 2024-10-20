@@ -1,0 +1,143 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(211, 211, 211);
+}
+
+.login-block__container {
+  width: 30%;
+  margin: 50px auto 0;
+}
+
+.form-login__title {
+  font-size: 2em;
+  color: black;
+  text-align: center;
+  margin: 0 0 10px;
+}
+.form-login__text {
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  outline: 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 5px;
+  font-size: 1em;
+  margin: 20px 0 20px;
+}
+.form-login__text:focus {
+  outline: 3px solid rgba(15, 121, 234, 0.3098039216);
+  border-radius: 5px;
+}
+.form-login__error-text {
+  font-size: 0.8em;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.546);
+  border-radius: 3px;
+  width: 45%;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  top: 62px;
+  left: 0;
+  overflow: hidden;
+}
+.form-login__button {
+  width: 100%;
+  height: 35px;
+  background-color: #329f4a;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.form-login__button--blue {
+  background-color: #0f7aea;
+}
+.form-login__link {
+  font-size: 0.5em;
+  color: blue;
+  cursor: pointer;
+}
+.form-login__field {
+  position: relative;
+}
+.form-login__field > label {
+  position: absolute;
+  top: 30px;
+  left: 6px;
+  color: darkgray;
+  transition-duration: 0.2s;
+}
+.form-login__text:not(:-moz-placeholder-shown) + label {
+  scale: 0.7;
+  translate: -10px -12px;
+}
+.form-login__text:not(:placeholder-shown) + label {
+  scale: 0.7;
+  translate: -10px -12px;
+}
+.form-login__text:not(:-moz-placeholder-shown) {
+  padding-top: 10px;
+}
+.form-login__text:not(:placeholder-shown) {
+  padding-top: 10px;
+}
+
+.user-login {
+  background-color: #fff;
+  width: 100%;
+  height: 400px;
+}
+.user-login__avatar-container {
+  padding: 25px 0 25px;
+  display: flex;
+  justify-content: center;
+}
+.user-login__avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-image: url(../images/avatar.png);
+  background-size: 130px 90px;
+  background-position: -20px 0;
+}
+.user-login__title {
+  font-size: 2em;
+  color: #000;
+  text-align: center;
+}
+.user-login__email {
+  font-size: 1em;
+  color: darkgray;
+  text-align: center;
+  line-height: 50px;
+}
+.user-login__work {
+  position: relative;
+  font-size: 1.5em;
+  color: darkgray;
+  text-align: center;
+  line-height: 25px;
+}
+.user-login__linear-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.user-login__linear {
+  width: 60px;
+  height: 2px;
+  background-color: darkgray;
+}/*# sourceMappingURL=main.css.map */

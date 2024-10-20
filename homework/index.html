@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="login-block">
+        <div class="login-block__container">
+            <div style="display: block;" class="sign-up">
+                <form class="form-login">
+                    <p class="form-login__title">Please sign up</p>
+                    <div class="form-login__field">
+                        <input name="formUptextName" placeholder id="firstNameUp" type="text" class="form-login__text">
+                        <label for="firstNameUp">First name</label>
+                    </div>
+                    <div class="form-login__field">
+                        <input name="formUptextName" placeholder id="lastNameUp" type="text" class="form-login__text">
+                        <label for="lastNameUp">Last name</label>
+                    </div>
+                    <div class="form-login__field">
+                        <input name="formUptextEmail" placeholder id="emailUp" type="text" class="form-login__text">
+                        <label for="emailUp">Email address</label>
+                        <p style="display: none;" class="form-login__error-text">This email already exist</p>
+                    </div>
+                    <div class="form-login__field">
+                        <input name="formUptextPassword" placeholder id="passwordUp" type="password" class="form-login__text">
+                        <label for="passwordUp">Password</label>
+                    </div>
+                    <input id="buttonUp" class="form-login__button form-login__button--blue" type="button" value="Sign up">
+                    <p id="buttonSignInNow" class="form-login__link">Sign in now</p>
+                </form>
+            </div>
+            <div style="display: none;" class="sign-in">
+                <form class="form-login">
+                    <div class="form-login__title">Please sign in</div>
+                    <div class="form-login__field">
+                        <input name="formIntextEmail" placeholder id="emailIn" type="text" class="form-login__text">
+                        <label for="emailIn">Email address</label>
+                    </div>
+                    <div class="form-login__field">
+                        <input name="formIntextPassword" placeholder id="passwordIn" type="password" class="form-login__text">
+                        <label for="passwordIn">Password</label>
+                        <p id="errorLoginText" style="display: none;" class="form-login__error-text">This email already exist</p>
+                    </div>
+                    <input id="buttonIn" class="form-login__button" type="button" value="Sign in">
+                    <p id="buttonSignUpNow" class="form-login__link">Sign up now</p>
+                </form>
+            </div>
+            <div style="display: none;" class="user-login">
+                <div class="user-login__avatar-container">
+                    <div class="user-login__avatar"></div>
+                </div>
+                <p id="userLoginName" class="user-login__title">Yura Novik</p>
+                <p id="userLoginEmail" class="user-login__email">novickijura14@gmail.com</p>
+                <p class="user-login__work">Designer & Web Developing</p>
+                <div class="user-login__linear-container"><div class="user-login__linear"></div></div>
+            </div>
+            <div style="display: none;" class="user-login-button">
+                <form class="form-login">
+                    <input id="exitLogin" class="form-login__button" type="button" value="Sign up">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
